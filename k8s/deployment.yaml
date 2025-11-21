@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: devops-app
-          image: gokulk306/devops-python-app:v1
+          image: gokulk306/devops-python-app:
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5000
